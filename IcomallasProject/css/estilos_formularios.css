@@ -1,0 +1,298 @@
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+body
+{
+	font-family:Verdana, Arial;
+	font-size:14px;	
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#encabezadoDePaginaInicio
+{	
+	margin:8px auto;
+	width:1052px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#encabezadoDePaginaInicio h1
+{
+	font-size:25px;
+	font-weight:bold;
+	margin:0px auto;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+	text-align:left;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#encabezadoDePaginaInicio p
+{
+	color:#666666;
+	font-size:12px;	
+	margin:0px auto;
+	margin-bottom:18px;	
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+	text-align:left;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#contenedorEtiqueta,#contenedorEtiquetaEmpleado
+{
+	background:#333;
+	color:#FFF;
+	font-family:Verdana, Arial;
+	font-size:12px;
+	font-weight:bold;
+	
+	/*editado*/
+	margin-left:102px;
+	text-align:justify;
+	
+	/*editado*/
+	width:376px;
+	border-radius: 2em 2em 0em 0em;
+}
+
+#contenedorEtiquetaEmpleado
+{
+	margin-left:5px;
+	margin-bottom:-16px;
+	width:345px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#tituloDeEtiqueta, #tituloDeEtiquetaEmpleado
+{
+	/*modificado*/
+	margin-left:15px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.form div.field
+{ 
+	margin:0 auto;
+	overflow:auto;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#content-form
+{
+	margin:0 auto;
+	padding:0;
+	width:40%;
+}
+
+/* ———– class form ———– */
+
+.form
+{
+	border:solid 1px #D0D0D0;
+	border-radius: 0em 2em 2em 2em;
+	background:rgb(249,249,249);
+	margin:0;
+	padding:14px;
+}
+
+.form label
+{
+	display:block; 
+	float:left;
+	font-weight:bold;
+	text-align:right;
+	width:40%;	
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#empleado label
+{
+	width:342px;	
+}
+
+#empleado-buscar
+{
+	width:262px;	
+}
+
+.form .field-help
+{
+	color:#FF4500;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:100%;
+}
+
+.form input[type=text], .form input[type=password], .form select
+{
+	border:solid 1px #BFBFBF/*#aacfe4*/;	
+	font-size:12px;
+	margin:1px 0px 20px 10px;
+	padding:4px 2px;	
+	width:30%;	
+}
+
+.button
+{
+	background:#333;
+	border:0;
+	border-radius:1em;
+	color:#FFFFFF;
+	cursor:pointer;
+	display:block;
+	font-family:Verdana, Arial;
+	font-size:12px;
+	font-weight:bold;
+	margin:auto;
+	padding:0.8em;
+	text-align:center;
+	width:125px;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+}
+.button:hover
+{
+	opacity:0.7;
+}
+
+.form textarea, .form select, .form input[type=text], .form input[type=password]
+{
+	box-shadow:2px 2px 2px rgba(0,0,0,0.4);
+}
+.form select
+{
+	width:30.6%;
+}
+
+/* ———– class form ———– */
+
+#contenedorInicio
+{
+    margin:0;
+	padding:0;	
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#contenidoDePaginaInicio
+{
+	background:white;
+	border-radius: 2em; 
+ 	font-family:Verdana, Arial;
+	font-size:12px;
+	font-weight:normal;
+	margin-top:auto;
+	margin-bottom:44px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:justify;
+	/*editado*/
+	width:906px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#pieDePaginaInicio
+{	
+
+}
+
+#loading-small,#warning,#error-conexion
+{
+	padding-top:10px;
+	text-align:center;
+}
+
+#loading-small img
+{ 
+	height:28px;
+	width:28px;
+}
+
+#error-conexion
+{
+	color:#FF4500;
+}
+
+#warning img, #error-conexion img
+{
+	padding-top:0px;
+	padding-right:6px;
+	vertical-align:middle;
+	height:28px;
+	width:28px;
+}
+
+#consultar input
+{
+	color:#000;
+}
+
+#consultar select
+{
+	color:#000;
+}
+
+#atrasAdelante
+{
+	position:absolute;
+	top:278px;
+	right:148px;
+}
+#atras
+{
+	cursor:pointer;
+	height:42px;
+	width:42px;
+}
+
+#catalogo
+{
+	width:1052px;
+	margin:6px auto;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#empleado
+{
+	border:solid 1px #D0D0D0;
+	border-radius: 0px 2em 2em 2em;
+	background:rgb(249,249,249);
+		
+	margin:16px auto;
+	padding-top:16px;
+	padding-bottom:16px;
+	width:864px;
+}
+
+#detalleEmpleado label
+{
+	margin-top:0px;
+	margin-bottom:8px;
+}
+
+#detalleEmpleado
+{
+	margin-top:-8px;
+	margin-bottom:0px;
+}
+span.item,span.item
+{
+	margin-left:10px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+#subTitulos
+{
+	margin-top:-4px;
+	margin-left:344px;
+	margin-bottom:6px;
+	font-size:14px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+#linea
+{
+	background-color:#D0D0D0;
+	border:0;
+	margin-top:-4px;
+	margin-bottom:10px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+	width:492px;
+	
+}
